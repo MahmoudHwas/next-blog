@@ -27,12 +27,8 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-8 text-lg">
           <div className="flex items-center gap-1">
-            <img
-              className="w-8 h-8 rounded-full"
-              src={session ?
-              session.user!.image : avtar}
-              alt="logo"
-            />
+           
+            
             <p className="text-sm font-medium">
               {session ? session?.user!.name : "Hello there"}
             </p>
